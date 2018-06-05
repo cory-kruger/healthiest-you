@@ -1,3 +1,5 @@
+/* Base Green Colour:  #10AC84
+
 /* -------------------- */
 /* Basic Setup          */
 /* -------------------- */
@@ -8,9 +10,10 @@
     box-sizing: border-box;
 }
 
-html {
-    background-color: white;
-    color: darkseagreen;
+html,
+body {
+    background-color: #FFFFFF;
+    color: #555555;
     font-family: 'Arial', sans-serif;
     font-size: 20px;
     font-weight: 300;
@@ -35,6 +38,14 @@ html {
     margin: 0 auto;
 }
 
+section {
+    padding: 80px 0;
+}
+
+.box {
+    padding: 1%;
+}
+
 /* -----Headings-----*/
 h1 {
     font-weight: 300;
@@ -43,6 +54,22 @@ h1 {
     margin-top: 0;
     font-size: 240%;
     word-spacing: 4px;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-size: 180%;
+    text-align: center;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #10AC84;
+    content: " ";
+    width: 25%;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 
 
@@ -64,4 +91,27 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+/* -------------------- */
+/* Navigation           */
+/* -------------------- */
+
+.main-nav {
+    float: right;
+    list-style: none;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: #FFFFFF;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    
 }
