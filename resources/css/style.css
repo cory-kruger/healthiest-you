@@ -143,3 +143,15 @@ header {
     padding: 12px 0px;
     color: #555555;
 }
+
+
+/* -------------------- */
+/* Contact              */
+/* -------------------- */
+
+.map {
+    width: 75%;
+    height: 300px;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
