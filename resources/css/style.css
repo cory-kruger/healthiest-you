@@ -136,6 +136,8 @@ header {
     z-index: 9999;
     text-align: right;
     padding: 12px 5% 12px 0px;
+    margin-top: 0;
+    transform: none;
 }
 
 .sticky-nav li a:link,
