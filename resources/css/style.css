@@ -100,18 +100,46 @@ header {
 .main-nav {
     float: right;
     list-style: none;
+    margin-top: 40px;
+    transform: translate(0, -50%);
 }
 
 .main-nav li {
     display: inline-block;
+    margin-left: 20px;
 }
 
 .main-nav li a:link,
 .main-nav li a:visited {
     color: #FFFFFF;
+    padding: 10px 0px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom: 0.2s;
+    font-size: 90%;
 }
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    
+    border-bottom: 2px solid #10AC84;
+}
+
+/* Sticky Nav */
+.sticky-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 2px #E8E8E8;
+    z-index: 9999;
+    text-align: right;
+    padding: 12px 5% 12px 0px;
+}
+
+.sticky-nav li a:link,
+.sticky-nav li a:visited {
+    padding: 12px 0px;
+    color: #555555;
 }
